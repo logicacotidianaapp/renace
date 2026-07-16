@@ -26,6 +26,28 @@
     
     <!-- Favicon Placeholder -->
     <link rel="icon" type="image/png" href="../renace_app_icon.png">
+    
+    <!-- JSON-LD Structured Data (Schema.org) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "SoftwareApplication",
+      "name": "Renace: Sobriedad",
+      "operatingSystem": "Android",
+      "applicationCategory": "HealthApplication",
+      "offers": {
+        "@type": "Offer",
+        "price": "0.00",
+        "priceCurrency": "USD"
+      },
+      "description": "Una aplicación móvil de sobriedad y recuperación de vicios 100% privada y offline. Incluye contador de días limpios, hábitos saludables, ejercicios respiratorios SOS y un asistente de IA offline (Gemma 2B) ejecutándose en tu dispositivo.",
+      "downloadUrl": "https://play.google.com/store/apps/details?id=com.renace.recovery",
+      "author": {
+        "@type": "Organization",
+        "name": "Lógica Cotidiana"
+      }
+    }
+    </script>
 </head>
 <body>
     
@@ -88,6 +110,40 @@
                 <div class="feature-icon">🔒</div>
                 <h3>Privacidad Absoluta</h3>
                 <p>Sin cuentas, sin perfiles en línea y sin rastreadores. Tus datos permanecen encriptados en la base de datos local de tu propio teléfono móvil.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section (SEO Optimized) -->
+    <section class="faq" id="faq" itemscope itemtype="https://schema.org/FAQPage">
+        <div class="faq-container">
+            <h2 class="section-title">Preguntas Frecuentes sobre la Recuperación con Renace</h2>
+            
+            <div class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+                <h3 itemprop="name">¿Qué es un contador de sobriedad y cómo me ayuda a dejar vicios?</h3>
+                <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+                    <p itemprop="text">Un contador de sobriedad es una herramienta de psicología conductual que realiza un seguimiento diario y visual de tus días limpios consecutivos de cualquier vicio. Ver cómo acumulas días de sobriedad aumenta de forma cuantificable tu motivación y autodisciplina, reforzando la mentalidad de progreso continuo ante deslices.</p>
+                </div>
+            </div>
+
+            <div class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+                <h3 itemprop="name">¿Es segura esta aplicación para registrar mis emociones y deslices?</h3>
+                <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+                    <p itemprop="text">Sí, la privacidad es nuestra máxima prioridad. Renace App es 100% offline, por lo que no requiere registros, cuentas ni conexión a internet para funcionar. Toda tu bitácora emocional, diarios y contador de días se encriptan de forma segura de forma local en tu base de datos Room, garantizando un espacio totalmente anónimo.</p>
+                </div>
+            </div>
+
+            <div class="faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">
+                <h3 itemprop="name">¿Cómo funciona el chat de acompañamiento de IA offline?</h3>
+                <div itemscope itemprop="acceptedAnswer" itemtype="https://schema.org/Answer">
+                    <p itemprop="text">El asistente de IA offline funciona con un modelo de lenguaje local (Gemma 2B) que se ejecuta dentro del procesador o chip gráfico de tu propio teléfono móvil móvil. Las conversaciones no se envían a servidores de internet ni a la nube, brindándote un espacio de contención terapéutica inmediata basado en Terapia Cognitivo-Conductual (TCC) de forma libre y privada.</p>
+                </div>
+            </div>
+            
+            <div style="text-align: center;">
+                <a href="https://play.google.com/store/apps/details?id=com.renace.recovery" class="seo-cta-link" target="_blank" rel="noopener">
+                    Descargar el contador de sobriedad y hábitos privados Renace en Google Play Store
+                </a>
             </div>
         </div>
     </section>
